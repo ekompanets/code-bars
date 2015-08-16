@@ -1,0 +1,34 @@
+.contact {
+  position: relative;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 30px;
+  text-align: left;
+  vertical-align: top;
+  color: #fff;
+
+  &__phone {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+    
+    &:before {
+      position: absolute;
+      display: block;
+      content: "";
+      width: 27px;
+      height: 26px; 
+      top: 0;
+      left: -30px;
+      background: url("../img/icon-tel.png");
+    }
+  }
+
+  &__text {
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 1.9em;
+    color: #b2b2b2;
+  }
+}

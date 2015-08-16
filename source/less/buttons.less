@@ -1,0 +1,60 @@
+.btn {
+  display: block;
+  // padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background: @body-bg;
+  font-size: @font-size-base;
+  line-height: 1.24em;
+  font-weight: 700;
+  text-align: center;
+  color: @text-color;
+  transition: .4s;
+  border: 2px solid @border-color;  
+
+  &:hover {
+    color: @body-bg;
+    background: @border-color;
+    cursor: pointer;
+  }
+
+}
+
+.btn--call {
+  width: 160px;
+  font-size: 9px;
+  line-height: 35px;  
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: #a73838;
+
+  &:hover {
+    color: #fff;
+    background-color: #a73838;
+    box-shadow: inset -1px -3px  #8b3838;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.btn--social { 
+  .hidden-text();
+  border: 1px solid #ddd;
+  display: inline-block;     
+  width: 30px !important;
+  height: 30px !important;
+  margin: 0 10px;
+  border-radius: 50%;
+  vertical-align: bottom;
+  text-align: center;
+  font: 0/0 serif;
+  text-shadow: none;
+  color: transparent;
+  background-size: contain;
+
+}
+
+

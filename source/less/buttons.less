@@ -1,38 +1,36 @@
 .btn {
-  display: block;
-  // padding: 10px;
+  display: inline-block;
+  margin: 0 auto;
   margin-bottom: 10px;
-  margin-right: 10px;
+  // margin-right: 10px;
+  display: inline-block;
   background: @body-bg;
-  font-size: @font-size-base;
-  line-height: 1.24em;
-  font-weight: 700;
+  font-size: 9px;
+  line-height: 33px;
+  text-transform: uppercase;
   text-align: center;
-  color: @text-color;
+  color: #fff;
   transition: .4s;
-  border: 2px solid @border-color;  
 
   &:hover {
-    color: @body-bg;
-    background: @border-color;
     cursor: pointer;
+  }
+
+  &-wrapper {
+    text-align: center;
   }
 
 }
 
 .btn--call {
   width: 160px;
-  font-size: 9px;
-  line-height: 35px;  
-  text-transform: uppercase;
-  color: #fff;
-  border: none;
-  background-color: #a73838;
+  background-color: #be4040;
+  box-shadow: inset -1px -3px  #8b3838;
+
 
   &:hover {
     color: #fff;
     background-color: #a73838;
-    box-shadow: inset -1px -3px  #8b3838;
   }
 
   &:active {
@@ -40,21 +38,18 @@
   }
 }
 
-.btn--social { 
-  .hidden-text();
-  border: 1px solid #ddd;
-  display: inline-block;     
-  width: 30px !important;
-  height: 30px !important;
-  margin: 0 10px;
-  border-radius: 50%;
-  vertical-align: bottom;
-  text-align: center;
-  font: 0/0 serif;
-  text-shadow: none;
-  color: transparent;
-  background-size: contain;
+.btn--news {
+  width: 202px;
+  background-color: #1a1a4c;
+  box-shadow: inset -1px -3px  #0c0c23;
 
+
+  &:hover {
+    color: #fff;
+    background-color: #09095e;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
 }
-
-
